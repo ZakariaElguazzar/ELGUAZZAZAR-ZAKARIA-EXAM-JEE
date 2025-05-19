@@ -15,6 +15,4 @@ public interface CreditMapper {
     CreditImmobilier fromCreditImmobilierDTO(CreditImmobilierDTO creditImmobilierDTO);
     CreditPersonnelDTO fromCreditPersonnel(CreditPersonnel creditPersonnel);
     CreditPersonnel fromCreditPersonnelDTO(CreditPersonnelDTO creditPersonnelDTO);
-
-
 }
