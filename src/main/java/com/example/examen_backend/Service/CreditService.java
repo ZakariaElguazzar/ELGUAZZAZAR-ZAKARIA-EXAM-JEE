@@ -10,4 +10,5 @@ public interface CreditService {
     void deleteClient(Long id);
     ClientDTO updateClient(Long id, ClientDTO clientDTO);
     List<ClientDTO> listClients();
+    List<ClientDTO> searchCustomer(String keyword);
 }

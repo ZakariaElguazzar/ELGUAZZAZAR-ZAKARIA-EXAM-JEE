@@ -42,4 +42,10 @@ public class CreditServiceImpl implements CreditService {
     public List<ClientDTO> listClients() {
         return clientRepo.findAll().stream().map(creditMapper::fromClient).toList();
     }
+
+    @Override
+    public List<ClientDTO> searchCustomer(String keyword) {
+        List<Client> clients = clientRepo.search(keyword);
+        return clients.stream().map(client -> creditMapper.fromClient(client)).toList();
+    }
 }
