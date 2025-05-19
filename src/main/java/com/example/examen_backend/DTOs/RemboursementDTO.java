@@ -2,7 +2,10 @@ package com.example.examen_backend.DTOs;
 import com.example.examen_backend.Enum.TypeRemboursement;
 
 import java.util.Date;
+import lombok.Data;
 
+
+@Data
 public class RemboursementDTO {
     private Long id;
     private Date date;

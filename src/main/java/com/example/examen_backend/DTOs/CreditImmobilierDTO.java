@@ -3,7 +3,10 @@ package com.example.examen_backend.DTOs;
 import com.example.examen_backend.Enum.StatutCredit;
 
 import java.util.Date;
+import lombok.Data;
 
+
+@Data
 public class CreditImmobilierDTO extends CreditDTO{
     private Long id;
     private Date dateDemande;
