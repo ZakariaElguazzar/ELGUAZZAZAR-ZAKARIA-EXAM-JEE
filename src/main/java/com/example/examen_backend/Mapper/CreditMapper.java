@@ -3,6 +3,7 @@ package com.example.examen_backend.Mapper;
 import com.example.examen_backend.DTOs.*;
 import com.example.examen_backend.Entities.*;
 
+
 public interface CreditMapper {
     ClientDTO fromClient(Client client);
     Client fromClientDTO(ClientDTO clientDTO);

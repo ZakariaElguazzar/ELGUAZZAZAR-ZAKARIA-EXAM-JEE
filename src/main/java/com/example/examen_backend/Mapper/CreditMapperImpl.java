@@ -3,7 +3,9 @@ package com.example.examen_backend.Mapper;
 import com.example.examen_backend.DTOs.*;
 import com.example.examen_backend.Entities.*;
 import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CreditMapperImpl implements CreditMapper {
     @Override
     public ClientDTO fromClient(Client client) {
