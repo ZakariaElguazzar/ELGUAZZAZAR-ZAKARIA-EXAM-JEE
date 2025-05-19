@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Data
 public class CreditPersonnelDTO extends CreditDTO{
-    private Long id;
+    private String id;
     private Date dateDemande;
     private StatutCredit statut;
     private Date dateAcception;

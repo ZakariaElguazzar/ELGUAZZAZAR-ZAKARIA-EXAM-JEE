@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 public class RemboursementDTO {
-    private Long id;
+    private String id;
     private Date date;
     private double montant;
     private TypeRemboursement type;

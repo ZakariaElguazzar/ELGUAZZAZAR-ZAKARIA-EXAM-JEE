@@ -13,8 +13,8 @@ import java.util.Date;
 @AllArgsConstructor
 public class Remboursement {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private String id;
     private Date date;
     private double montant;
     @Enumerated(EnumType.STRING)
